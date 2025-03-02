@@ -10,5 +10,17 @@ data:
       - "embarked"
       - "sex"
 
+# TODO: Perform hyperparameter optimazation
+#preprocessing:
+#  params:
+
+# TODO: Add support for multiple modells with Grid/Randomized Search
 model:
   random_state: 42
+  name: "logistic_regression"
+  output_path: "models/titanic_pipeline.pkl"
+
+# TODO: Perform hyperparameter optimazation
+#  params:
+#    C: [0.1, 1, 10]
+#    penalty: ["l1", "l2"]
