@@ -1,0 +1,14 @@
+data:
+  path: 'https://raw.githubusercontent.com/amueller/scipy-2017-sklearn/091d371/notebooks/datasets/titanic3.csv'
+  target_col: "survived"
+  features:
+    num:
+      - "age"
+      - "fare"
+      - "pclass"
+    cat:
+      - "embarked"
+      - "sex"
+
+model:
+  random_state: 42
